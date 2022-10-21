@@ -1,0 +1,297 @@
+body {
+  background-color: rgb(204, 117, 17);
+}
+
+header {
+  #top-title {
+    border-bottom: solid black 2px;
+    color: rgb(255, 230, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hiragino Kaku Gothic StdN;
+  }
+}
+
+#caution-text {
+  text-align: center;
+  margin: 250px 0;
+  h2 {
+    color: red;
+    font-size: 25px;
+    font-family: Hiragino Kaku Gothic StdN;
+    padding-bottom: 10px;
+  }
+}
+
+#top-img {
+  img {
+    width: 100%;
+    height: 1000px;
+  }
+}
+
+#profile {
+  background-color: rgb(255, 243, 188);
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 10px 10px 0 10px;
+  h3 {
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+  }
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.status {
+  display: flex;
+  justify-content: space-around;
+  .ideal {
+    h3 {
+      color: red;
+      font-size: 30px;
+      padding-bottom: 5px;
+      border-bottom: solid 3px black;
+    }
+    li {
+      font-size: 18px;
+      margin: 15px;
+    }
+  }
+  .reality {
+    h3 {
+      color: blue;
+      font-size: 30px;
+      padding-bottom: 5px;
+      border-bottom: solid 3px black;
+    }
+    li {
+      font-size: 18px;
+      margin: 15px;
+    }
+  }
+  .skill {
+    h3 {
+      border-bottom: solid 3px black;
+      font-size: 30px;
+      padding-bottom: 5px;
+    }
+    img {
+      height: 400px;
+    }
+  }
+}
+
+#character {
+  background-color: rgb(255, 243, 188);
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 10px 10px;
+}
+
+#dream {
+  background-color: rgb(255, 243, 188);
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 0 10px 10px 10px;
+}
+
+.episode1 {
+  border: solid black 2px;
+  h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  p {
+    line-height: 1.5;
+  }
+}
+
+#illustration {
+  background-color: rgb(255, 243, 188);
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 0 10px 10px 10px;
+}
+
+.thema {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0 0 0;
+}
+
+.picture-box1 {
+  display: flex;
+  justify-content: space-around;
+  .friend {
+    text-align: center;
+    margin: 20px;
+    img {
+      width: 500px;
+      height: 500px;
+    }
+    p {
+      font-size: 23px;
+      text-decoration: underline;
+      margin: 10px;
+    }
+  }
+}
+
+.picture-box2 {
+  display: flex;
+  justify-content: space-around;
+  .friend {
+    text-align: center;
+    margin: 20px;
+    img {
+      width: 500px;
+      height: 500px;
+    }
+    p {
+      font-size: 23px;
+      text-decoration: underline;
+      margin: 10px;
+    }
+  }
+}
+
+#comics {
+  background-color: rgb(255, 243, 188);
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 0 10px 0 10px;
+}
+
+.comic-box {
+  display: flex;
+  justify-content: space-around;
+  .comic {
+    text-align: center;
+    img {
+      width: 400px;
+      height: 900px;
+    }
+  }
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+
+// スマホ用
+@media screen and (max-width: 480px) {
+  #top-img {
+    img {
+      width: 100%;
+      height: 500px;
+    }
+  }
+
+  #caution-text {
+    text-align: center;
+    margin: 50px 0;
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .status {
+    display: block;
+    .ideal {
+      h3 {
+        color: red;
+        font-size: 30px;
+        padding-bottom: 5px;
+        border-bottom: solid 3px black;
+      }
+      li {
+        font-size: 18px;
+        margin: 15px;
+      }
+    }
+    .reality {
+      h3 {
+        color: blue;
+        font-size: 30px;
+        padding-bottom: 5px;
+        border-bottom: solid 3px black;
+      }
+      li {
+        font-size: 18px;
+        margin: 15px;
+      }
+    }
+    .skill {
+      h3 {
+        border-bottom: solid 3px black;
+        font-size: 30px;
+        padding-bottom: 5px;
+      }
+      img {
+        height: 400px;
+      }
+    }
+  }
+
+  .picture-box1 {
+    display: block;
+    .friend {
+      text-align: center;
+      img {
+        width: 300px;
+        height: 300px;
+      }
+      p {
+        font-size: 23px;
+        text-decoration: underline;
+        margin: 10px;
+      }
+    }
+  }
+
+  .picture-box2 {
+    display: block;
+    .friend {
+      text-align: center;
+      margin: 20px;
+      img {
+        width: 300px;
+        height: 300px;
+      }
+      p {
+        font-size: 23px;
+        text-decoration: underline;
+        margin: 10px;
+      }
+    }
+  }
+
+  .comic-box {
+    display: block;
+    .comic {
+      text-align: center;
+      img {
+        width: 300px;
+        height: 700px;
+      }
+    }
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+}
