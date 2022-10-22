@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workページ</title>
+</head>
+<body>
+    <script>
+        function samba() {
+            let area = document.getElementById('text-area');
+            let textContent = "カエル・チョ・パンダ・サンバ";
+            const con = textContent
+            area.append(con);
+        }
+    </script>
+    <h1>カエルチョ・パンダ・サンバ</h1>
+    <button onclick="samba()">クリック</button>
+    <div id="text-area">
+
+    </div>
+</body>
+</html>
