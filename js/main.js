@@ -11,6 +11,7 @@ function samba() {
         h_element = document.createElement('h1');
         h_element.textContent = "カエルチョ・パンダ・サンバ!!!";
         area.append(h_element);
+        $("#btn").removeAttr("onclick");
     } else {
         null;
     }
